@@ -86,7 +86,6 @@ hr{
     border: 0;
     padding: 20px 20px 0px 20px;
     border-radius: 12px;
-    transition: 0.7s;
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
 }
 .courses .card .card-body {
@@ -128,6 +127,22 @@ hr{
     background-color: #21B573;
     color: white;
     border: none;
+}
+
+/* ---------------- slider ----------------------- */
+
+.carousel img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 900px;
+
+}
+@media only screen and (max-width: 700px) and (min-width: 100px){
+    .carousel img{
+        width: 700px;
+        height: 500px;
+    }
 }
 
 /* --------------  Man Information ---------------------------*/
