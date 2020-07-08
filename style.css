@@ -1,6 +1,9 @@
 body{
+    margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+/* ------ for navbar and header section ------- */ 
 .bg-color{
     background-color: #F0FFF0;
     padding-bottom: 70px;
@@ -32,8 +35,81 @@ body{
     color: white;
     border: none;
 }
-.topic,.student,.test-taken,.students {
-    display: flex;
-    border: 1px solid;
-    background-color: green;
+/* ----------- student,topic,book section ---------- */
+.rowelement-style{
+    height: 250px;
+    border: 0;
+    padding: 25px;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    transition: 0.5s;
+    background-color: #F8FFFB;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+}
+.card-img-top-wh{
+    width: 90px;
+    height: 100px;
+}
+
+/* ------ online course sectione style ----- */
+
+.courses {
+    padding: 50px 0;
+}
+.title{
+    text-align: center;
+}
+hr{
+    width: 100px;
+    height: 5px;
+    border-radius: 5px;
+    background-image: linear-gradient(120deg, #e65c00, #ffb380);
+}
+.courses .card {
+    border: 0;
+    padding: 20px 20px 0px 20px;
+    border-radius: 12px;
+    transition: 0.7s;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+}
+.courses .card .card-body {
+    padding: 20px 0 20px 0;
+}
+
+.courses .card .card-title {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 0;
+}
+
+.courses .card .card-text {
+    color: #909091;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 12px;
+}
+
+.courses .card-body img {
+    height: 18px;
+    width: 20px;
+}
+
+.courses .card-body span {
+    color: #585859;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 2px;
+}
+.getstarted-btn-2{
+    border-radius: 40px;
+    padding: 5px 20px;
+    font-size: 20px;
+    background-color: #21B573;
+    color: white;
+    border: none;
 }
