@@ -132,3 +132,25 @@ hr{
 
 /* --------------  Man Information ---------------------------*/
 
+.man-information{
+    margin-top: 100px;
+}
+
+/* -------------- footer -------------------------------*/
+.footer{
+    color: #ffffff;
+    background-color: #282531;
+    margin-top: 40px;
+}
+.footer .container{
+    padding: 100px 0;
+}
+.footer li{
+    list-style: none;
+}
+.footer p{
+    font-size: 20px;
+}
+.text-center{
+    margin: 0;
+}
