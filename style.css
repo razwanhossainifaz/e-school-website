@@ -36,20 +36,36 @@ body{
     border: none;
 }
 /* ----------- student,topic,book section ---------- */
-.rowelement-style{
-    height: 250px;
-    border: 0;
-    padding: 25px;
-    border-radius: 10px;
-    position: relative;
-    text-align: center;
-    transition: 0.5s;
-    background-color: #F8FFFB;
-    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+.information{
+    padding: 50px 0px;
 }
-.card-img-top-wh{
+.information .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    border-radius: 10px;
+    background-color: #F8FFFB;
+}
+.card-special{
+    background-color: #ffffff;
+    box-shadow: 5px 5px 10px gray;
+}
+.information .card img{
+    margin: 50px 0px 30px 0px;
     width: 90px;
-    height: 100px;
+    height: 90px;
+}
+@media only screen and (max-width: 760px;){
+    .information .card{
+        margin-bottom: 25px;
+    }
+}
+@media only screen and (max-width: 560px;){
+    .information .card img{
+        width: 60px;
+        height: 55px;
+    }
 }
 
 /* ------ online course sectione style ----- */
@@ -113,3 +129,6 @@ hr{
     color: white;
     border: none;
 }
+
+/* --------------  Man Information ---------------------------*/
+
